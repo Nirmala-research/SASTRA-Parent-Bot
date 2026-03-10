@@ -20,7 +20,7 @@ genai.configure(api_key=GEMINI_API_KEY)
 set_api_key(ELEVENLABS_API_KEY)
 
 # 2. LOAD UNIVERSITY DATA
-with open("University_info.txt.txt", "r", encoding="utf-8") as f:
+with open("University_info.txt", "r", encoding="utf-8") as f:
     university_context = f.read()
 
 st.title("🏛️ SASTRA University ParentBot")
